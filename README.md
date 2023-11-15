@@ -1,4 +1,10 @@
-# om_cookies_styles
+# Comment fonctionne ce module
+
+Seulement installer via composer et l'activer.
+
+Ensuite il faut désactiver l'option "Use original Cookies JSR Layout" dans /admin/config/system/cookies/config du module drupal/cookies
+
+## À propos
 
 Modules pour override la CSS de drupal/cookies
 
