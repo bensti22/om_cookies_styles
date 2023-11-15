@@ -1,0 +1,4 @@
+administer om_cookies_styles configuration:
+  title: 'Administer om_cookies_styles configuration'
+  description: 'Optional description.'
+  restrict access: true

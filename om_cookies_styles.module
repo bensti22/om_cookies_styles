@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for om_cookies_styles module.
+ */
+
+
+ //attacher la librarie à toutes les pages !
+ function om_cookies_styles_page_attachments(array &$attachments) {
+    $attachments['#attached']['library'][] = 'om_cookies_styles/om_cookies_styles_custom';
+  }

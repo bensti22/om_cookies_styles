@@ -1,0 +1,22 @@
+{
+  "name": "ben",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "watch": "gulp sass:watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.55"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-wait": "^0.0.2"
+  }
+}
