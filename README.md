@@ -41,25 +41,3 @@ Avec un composer update, on va pouvoir updater la mise en page de drupal/cookies
 et par la suite, on pourra gérer de façon générale la page description des cookies.
 
 
-## TAG pour les versions
-
-
-Créer une nouvelle version 
-après avoir push sur le master
-
-créer la version : 
-```git tag -a v1.0.2 "version 1.0.2"```
-
-
-lister nos versions et vérifier si notre dernier tag est présent
-```git tag -l```
-
-push le tag
-```git push origin v1.0.2```
-
-override une même version et la push 
-```
-git tag -f mytagname
-git push -f --tags
-```
-
