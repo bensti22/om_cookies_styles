@@ -494,4 +494,8 @@ body .cookiesjsr--app *, body .cookiesjsr--app *:before, body .cookiesjsr--app *
 .cookiesjsr-layer button.denyAll, .cookiesjsr-layer button.allowAll {
   display: inline-block; }
 
+/**/
+.cookiesjsr-btn {
+  padding: 0 1em; }
+
 /*# sourceMappingURL=App.css.map */
