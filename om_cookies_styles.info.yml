@@ -3,4 +3,4 @@ type: module
 description: Modules custom de OM
 package: Custom
 core_version_requirement: ^9 || ^10
-version: '10.x-1.0.2'
+version: '1.0.2'
