@@ -46,9 +46,7 @@ et par la suite, on pourra gérer de façon générale la page description des c
 après avoir push sur le master
 
 créer la version : 
-```
-git tag -a v1.0.2 "version 1.0.2"
-```
+```git tag -a v1.0.2 "version 1.0.2"```
 
 
 lister nos versions et vérifier si notre dernier tag est présent
