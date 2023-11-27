@@ -43,6 +43,8 @@ et par la suite, on pourra gérer de façon générale la page description des c
 
 ## TAG pour les versions
 
+
+Créer une nouvelle version 
 après avoir push sur le master
 
 créer la version : 
@@ -54,4 +56,10 @@ lister nos versions et vérifier si notre dernier tag est présent
 
 push le tag
 ```git push origin v1.0.2```
+
+override une même version et la push 
+```
+git tag -f mytagname
+git push -f --tags
+```
 
