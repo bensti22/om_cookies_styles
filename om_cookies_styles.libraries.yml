@@ -1,0 +1,7 @@
+# Custom module library for general purposes.
+om_cookies_styles_custom:
+  css:
+    component:
+      styles/css/App.css: {}
+  dependencies:
+    - core/drupalSettings

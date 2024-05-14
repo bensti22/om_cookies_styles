@@ -1,0 +1,106 @@
+$color-1: #000;
+$color-2: #e4e5e6;
+$color-3: #00AA00;
+$color-4: #ffffff;
+$color-5: #000f37;
+
+$tab-bg: #eaeaea;
+$font-size-reset: 1em;
+
+
+#cookiesjsr {
+  --default-margin: #{$default-margin};
+  --font-size-reset: #{$font-size-reset};
+
+  --btn-font-color: #{$color-1};
+  --btn-border-color: #{$color-1};
+  --btn-bg-color: #{$color-4};
+  --btn-prime-font-color: #{$color-4};
+  --btn-prime-border-color: #{$color-1};
+  --btn-prime-bg-color: #{$color-1};
+  --btn-inv-font-color: #{$color-4};
+  --btn-inv-border-color: #{$color-4};
+  --btn-inv-bg-color: #{$color-1};
+  --btn-prime-inv-font-color: #{$color-1};
+  --btn-prime-inv-border-color: #{$color-4};
+  --btn-prime-inv-bg-color: #{$color-4};
+
+  --link-list-font-color: #{$color-1};
+  --link-list-separator-color: #{$color-1};
+
+  --banner-logo-offset: 100px;
+  --banner-bg-color: #{$color-4};
+  --banner-font-color: #{$color-1};
+
+  --layer-header-height: #{$layer-header-height};
+  --layer-header-bg-color: #{$color-4};
+  --layer-header-font-color: #{$color-5};
+  --layer-body-bg-color: #{$color-4};
+  --layer-tab-bg-color: #{$color-4};
+  --layer-tab-font-color: #{$color-5};
+  --layer-tab-active-bg-color: #{$tab-bg};
+  --layer-tab-active-font-color: #{$color-1};
+
+  --layer-bg-dark: #{$color-4};
+  --layer-font-light: #{$color-1};
+  --layer-font-dark: #{$color-5};
+  --layer-border-color: #{$color-5};
+  --layer-footer-bg-color: #{$color-4};
+  --layer-footer-font-color: #{$color-5};
+  --layer-footer-height: #{$layer-footer-height};
+
+  --switch-border-color: #{$color-2};
+  --switch-handle-color: #{$color-1};
+  --switch-bg-off: #{$color-1};
+  --switch-bg-on: #{$color-3};
+  --switch-width: #{$switch-width};
+  --switch-height: #{$switch-height};
+  --switch-always-on-font-color: #{$color-3};
+  --switch-always-on-bg-color: #{$color-4};
+}
+
+.cookiesjsr-service {
+   &:hover {
+      background-color: transparent;
+   }
+}
+
+
+
+.cookiesjsr-service-group {
+  &.active {
+    .cookiesjsr-service-group--tab {
+      border-bottom: 1px solid var(--layer-border-color, $color-2);
+    }
+  }
+}
+
+//pour changer la hauteur du bloc overlay
+.cookiesjsr-layer {
+  height: 100vh;
+  width: 100vw;
+  @media (min-height: $h-sm) { height: 80vh; max-height: 575px}
+  @media (min-height: $h-md) { height: 30vh; }
+  @media (min-width: $md) {
+    width: 860px;
+  }
+}
+
+
+// Pour toujours faire afficher les 3 btn (Tout refuser, tout accepter et enregistrer même en mobile)
+.cookiesjsr-layer {
+  button {
+    &.denyAll,
+    &.allowAll {
+      display: inline-block;
+    }
+  }
+}
+
+
+/**/
+
+
+.cookiesjsr-btn {
+    padding: 0 1em;
+}

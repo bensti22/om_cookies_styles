@@ -1,0 +1,15 @@
+om_cookies_styles.example:
+  path: '/om-cookies-styles/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\om_cookies_styles\Controller\OmCookiesStylesController::build'
+  requirements:
+    _permission: 'access content'
+
+om_cookies_styles.settings_form:
+  path: '/admin/config/system/om-cookies-styles'
+  defaults:
+    _title: 'om_cookies_styles settings'
+    _form: 'Drupal\om_cookies_styles\Form\SettingsForm'
+  requirements:
+    _permission: 'administer om_cookies_styles configuration'

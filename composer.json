@@ -1,0 +1,9 @@
+{
+    "name": "orizonmedia/om_cookies_styles",
+    "type": "drupal-module",
+    "description": "Sub-module de drupal/cookies, pour override css",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.0"
+    }
+}

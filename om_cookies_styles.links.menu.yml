@@ -1,0 +1,6 @@
+om_cookies_styles.settings_form:
+  title: 'OM Cookies Styles'
+  description: 'Configure om_cookies_styles.'
+  parent: system.admin_config_system
+  route_name: om_cookies_styles.settings_form
+  weight: 10
